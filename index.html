@@ -1,0 +1,24 @@
+<html>
+
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div id="map"></div>
+    <div id="input">
+      <p id="label">Select your start point</p>
+      <input id="start">
+      <p id="label">Select your destination</p>
+      <input id="end">
+      <p id="label">How close do you want to park</p>
+      <input id="radius" style="text-align: center;" type="number" name="points" value="1" step="0.2">
+      <button id="validate" onclick="route()">Find route</button>
+    </div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDynjk-OWr1HcG6MC-BAC_tEZgHGHR7xp0&callback=initMap"></script>
+
+  </body>
+</html>
+
+<!--AIzaSyDynjk-OWr1HcG6MC-BAC_tEZgHGHR7xp0-->
